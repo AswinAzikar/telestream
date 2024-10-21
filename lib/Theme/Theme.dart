@@ -4,10 +4,12 @@ import 'package:telestream/Theme/app_text_themes.dart';
 class AppTheme {
   static final ThemeData light = ThemeData(
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: Colors.red,
     scaffoldBackgroundColor: Colors.white,
+
+
     appBarTheme: const AppBarTheme(
-      color: Colors.blue,
+    //  color: Colors.blue,
       iconTheme: IconThemeData(color: Colors.white),
     ),
     fontFamily: AppTextStyles.poppinsFontFamily,
@@ -20,6 +22,7 @@ class AppTheme {
   );
 
   static final ThemeData dark = ThemeData(
+    
     brightness: Brightness.dark,
     primaryColor: Colors.blueGrey,
     scaffoldBackgroundColor: Colors.black,
